@@ -25,11 +25,9 @@ div {
   place-content: center;
   padding: calc(0.1em + 6px) 0.05em 0 0;
   height: calc(1lh + 6px - var(--o));
-  background: linear-gradient(22.5deg, #fff var(--sl)) text, 
-  linear-gradient(22.5deg, #000 var(--sl)), 
-  linear-gradient(#094770 50%, #0000 0) 0 0/ 1% 6px;
-  color: #0000;
+  background: linear-gradient(22.5deg, #fff var(--sl)) text, linear-gradient(22.5deg, #000 var(--sl)), linear-gradient(#094770 50%, rgba(0, 0, 0, 0) 0) 0 0/1% 6px;
+  color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: #fff calc(var(--o));
   text-transform: uppercase;
   mix-blend-mode: screen;
-}
+}/*# sourceMappingURL=styling.css.map */
